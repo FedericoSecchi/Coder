@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Blockchain</title>
+
+
+    <!-- CSS de bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="shortcut icon"
+        href="data:image/png;base64,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"
+        type="image/x-icon">
+
+</head>
+
+<body>
+    <main class="container main">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Blockchain</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/1.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/2.html">Benefits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/3.html">Security</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/4.html">Types</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="row w-100 p-5">
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="tituloParrafo">A blockchain is “a distributed database that maintains a continuously
+                            growing list of
+                            ordered records, called blocks.</h2>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-justify">
+                            These blocks “are linked using cryptography. Each block contains a cryptographic hash of the
+                            previous block, a timestamp, and transaction data. A blockchain is a decentralized,
+                            distributed and
+                            public digital ledger that is used to record transactions across many computers so that the
+                            record
+                            cannot be altered retroactively without the alteration of all subsequent blocks and the
+                            consensus of
+                            the network.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="animate__animated animate__pulse img-fluid" src="../img/pngwing.com.png"
+                    alt="imagen de red blockchain" alt="Imagen de bloques formando bloques">
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="container text-center">
+        <div class="mx-auto d-flex flex-row gap-3 justify-content-center">
+            <a href="../html/1.html">How it works</a>
+            <a href="../html/2.html">Benefits</a>
+            <a href="../html/3.html">Security</a>
+            <a href="../html/4.html">Types</a>
+            <a href="">Terms of Service</a>
+            <a href="">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
