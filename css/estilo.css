@@ -1,36 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
-
+/*variables*/ /*mixin*/ /*fuente*/
+@import "https://fonts.googleapis.com/css2?family=PT+Serif&display=swap";
 body {
-    font-family: 'PT Serif', serif;
-    background-image: url(https://wallpaperaccess.com/full/2312687.png);
-
+  font-family: "PT Serif", serif;
+  background-image: url(https://wallpaperaccess.com/full/2312687.png);
 }
 
-
-a {
-    color: black;
-    text-decoration: none;
-    display: inline-block;
-}
-
-
+/* base */
 .tituloParrafo {
-    color: black;
-    margin-top: 50px;
-    font-size: 30px;
-    font-weight: bold;
-
+  color: black;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .parrafo {
-    color: grey;
+  color: grey;
 }
 
+.video {
+  padding-top: 70px;
+}
 
+/*footer*/
 footer {
-
-    text-align: center;
-    padding: 50px;
-
+  text-align: center;
+  padding: 50px;
 }
+footer a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=estilo.css.map */

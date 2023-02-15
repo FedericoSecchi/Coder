@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/_variables.scss","../scss/_fuente.scss","../scss/_base.scss","../scss/_video.scss","../scss/_footer.scss","../scss/_mixin.scss"],"names":[],"mappings":"AAAA;ACIQ;AAER;EACC,aALe;EAMf;;;ACRD;AAEA;EACC,OFDS;EEET;EACA;EACA;;;AAGD;EACC,OFPS;;;AGHV;EACI;;;ACDJ;AAEA;EACC;EACA;;AAEA;ECHG,OLDM;EKEN;EACA","file":"estilo.css"}
